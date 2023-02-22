@@ -1,15 +1,15 @@
 package com.iesam.huellas.domain;
 
-public class Cat implements Pet{
+public class Dog implements Pet {
 
-    public Boolean sick;
+    public Boolean friedly;
 
-    public Boolean getSick() {
-        return sick;
+    public Boolean getFriedly() {
+        return friedly;
     }
 
-    public void setSick(Boolean sick) {
-        this.sick = sick;
+    public void setFriedly(Boolean friedly) {
+        this.friedly = friedly;
     }
 
     @Override
