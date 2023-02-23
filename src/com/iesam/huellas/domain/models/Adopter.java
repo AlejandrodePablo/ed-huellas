@@ -1,4 +1,4 @@
-package com.iesam.huellas.domain;
+package com.iesam.huellas.domain.models;
 
 import javax.swing.*;
 

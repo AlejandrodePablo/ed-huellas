@@ -1,8 +1,8 @@
-package com.iesam.huellas;
+package com.iesam.huellas.presentation;
 
 import com.iesam.huellas.data.local.CatFileLocalDataSource;
 import com.iesam.huellas.data.remote.CatApiRemoteDataSource;
-import com.iesam.huellas.domain.Cat;
+import com.iesam.huellas.domain.models.Cat;
 
 import java.util.List;
 
@@ -14,5 +14,7 @@ public class Main {
 
         CatFileLocalDataSource fileLocalDataSource = CatFileLocalDataSource.getInstance();
         fileLocalDataSource.saveList(cats);
+
+
     }
 }
